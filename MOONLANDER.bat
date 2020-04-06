@@ -59,8 +59,8 @@ goto Menu
 :Win
 cls
 echo You succesfully landed !
-set /p answer=Would you like to save? [y/n]
+set /p answer=Would you like to save ? [y/n]
 if %answer%=='y' goto 'Save'
-if %answer%=='n' goto 'Start_2'
+if %answer%=='n' goto 'Start_1'
 :Save
 goto Start_2
